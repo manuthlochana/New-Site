@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manuth Lochana - Developer & Tech Innovator</title>
+    <link rel="canonical" href="https://www.manuthlochana.site/" />
+    <meta name="description" content="Meet Manuth Lochana, a Sri Lankan developer and founder of Thunder Storm Studio. View my portfolio of web and app development projects." />
+    <meta name="author" content="Manuth Lochana" />
+    <meta name="keywords" content="Manuth Lochana, Manu, Software Developer, AI, Python, React, Thunder Storm Studio, Video Editing" />
+    
+    <!-- Structured Data for Google Search -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Manuth Lochana",
+      "url": "https://www.manuthlochana.site",
+      "email": "manuth.dev@gmail.com",
+      "sameAs": [
+        "https://linkedin.com/in/manuthlochana",
+        "https://github.com/manuthlochana",
+        "https://reddit.com/manuthlochana",
+        "https://medium.com/@manuthlochana",
+        "https://dev.to/manuth_lochana",
+        "https://x.com/manuthlochana"
+      ],
+      "jobTitle": "Software Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Thunder Storm Studio"
+      }
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    
+    <!-- Fonts - Syne for display, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/assets/profile-photo.jpg" as="image" fetchpriority="high">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Manuth Lochana" />
+    <meta property="og:title" content="Manuth Lochana - Developer & Tech Innovator" />
+    <meta property="og:description" content="Software Developer, AI Enthusiast, and Creative Innovator specializing in cutting-edge technology and design." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.manuthlochana.site" />
+    <meta property="og:image" content="https://i.ibb.co/TMk8ShzQ/Screenshot-2025-12-12-at-15-35-08.jpg" />
+
+    <meta name="twitter:creator" content="@manuthlochana" />
+    <meta name="twitter:site" content="@manuthlochana" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Manuth Lochana - Developer & Tech Innovator" />
+    <meta name="twitter:description" content="Software Developer, AI Enthusiast, and Creative Innovator" />
+    <meta name="twitter:image" content="https://i.ibb.co/TMk8ShzQ/Screenshot-2025-12-12-at-15-35-08.jpg" />
+    <!-- Prevent theme flash by applying theme before React loads -->
+    <script>
+      (function() {
+        var theme = localStorage.getItem('theme');
+        if (!theme) {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

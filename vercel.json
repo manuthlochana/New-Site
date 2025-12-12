@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path((?!www\\.).*)",
+      "destination": "https://www.manuthlochana.site/:path*",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "manuthlochana.site"
+        }
+      ]
+    }
+  ]
+}
