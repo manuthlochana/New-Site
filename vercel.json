@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "/auth",
+      "permanent": false,
+      "has": [
+        {
+          "type": "host",
+          "value": "admin.manuthlochana.site"
+        }
+      ]
+    },
+    {
       "source": "/:path((?!www\\.).*)",
       "destination": "https://www.manuthlochana.site/:path*",
       "permanent": true,
